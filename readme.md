@@ -13,11 +13,20 @@ The project use Laravel framework so you can clone this repo. You have to instal
 ```sh
 composer install
 ```
-Then you have to change database settings in .env file located in the root. Now you're able to create the table into your db. To do it you should now launch the command 
+Then you have to copy .env.example to create your brand new .env config file. From command line you can launch :
+Windows 
+```sh
+copy .env.example .env 
+```
+Linux
+```sh
+cp .env.example .env 
+```
+Then you have to change database settings in your .env. Now you're able to create the table into your db. To do it you should now launch the command 
+
 ```sh
 php artisan migrate
 ```
-to create the table to save data.
 
 ## Usage
 

@@ -28,7 +28,7 @@ Then you have to change database settings in your .env. Now you're able to creat
 php artisan migrate
 ```
 
-Finale step create the APP KEY by launching the command
+Final step create the APP KEY by launching the command
 
 ```sh
 php artisan key:generate

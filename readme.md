@@ -9,11 +9,11 @@
 
 ## About Laravel
 
-The project use Laravel framework so you can clone this repo. You have to install the dependeces by launching the command
+The project use Laravel framework so you can clone this repo. You have to install the dependeces in order to use this project. So from the root of this project you have to launch the command 
 ```sh
 composer install
 ```
-Then you have to change database settings in .env file located in the root. You should now launch the command 
+Then you have to change database settings in .env file located in the root. Now you're able to create the table into your db. To do it you should now launch the command 
 ```sh
 php artisan migrate
 ```

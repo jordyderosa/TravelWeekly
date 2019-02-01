@@ -19,4 +19,10 @@ php artisan migrate
 ```
 to create the table to save data.
 
+## Usage
+
+Navigate to :
+
+http://yourhost/the_path_of_this_repo/public/ContactUs
+
 Enjoy
